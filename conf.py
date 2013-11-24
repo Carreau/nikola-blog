@@ -15,7 +15,7 @@ SITE_URL = "http://carreau.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "bussonnier.matthias(at)mail-by-google(dot)com  "
-BLOG_DESCRIPTION = "Random, often unfinished thoughts about things, mostly programming and python"
+BLOG_DESCRIPTION = "Random, often unfinished thoughts about things, mostly programming and Python"
 
 # Nikola is multilingual!
 #
