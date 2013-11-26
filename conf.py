@@ -184,7 +184,7 @@ COMPILERS = {
 # INDEX_PATH = ""
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = True
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Final locations for the archives are:
@@ -327,7 +327,7 @@ THEME = 'zen-ipython'
 # }
 
 # Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # A HTML fragment with the Read more... link.
 # The following tags exist and are replaced for you:
@@ -361,6 +361,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
 #                 "googleplus" or "facebook"
 # COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = "googleplus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
