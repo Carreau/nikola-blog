@@ -184,7 +184,7 @@ COMPILERS = {
 # INDEX_PATH = ""
 
 # Create per-month archives instead of per-year
-CREATE_MONTHLY_ARCHIVE = True
+CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Final locations for the archives are:
@@ -412,14 +412,14 @@ COMMENT_SYSTEM = "googleplus"
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
-# FUTURE_IS_NOW = False
+FUTURE_IS_NOW = False
 
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
 # Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
-# DEPLOY_FUTURE = False
+DEPLOY_FUTURE = False
 # If False, draft posts will not be deployed
-# DEPLOY_DRAFTS = True
+DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
 # Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
