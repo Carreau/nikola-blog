@@ -1,0 +1,6 @@
+.DS_Store
+*.un~
+.doit.db
+__pycache__
+cache/
+*.pyc
