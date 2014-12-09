@@ -13,10 +13,26 @@ pre {
   text-align: center;
 }
 
+.output_area {
+    border:none;
+    border-left: 5px solid darkred;
+}
+
+div.input {
+    flex-direction:column;
+}
+
+div.input_area {
+    border:none;
+    border-left: 5px solid navy;
+    background-color:transparent;
+    border-radius:0px;
+}
+
+
 div.prompt {
-  padding: 0.6em;
+  align-self: flex-start;
   font-size: 13px;
-  background: url('../images/blue-mocha-grunge-reversed.jpg');
   margin-right: 1em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -32,14 +48,15 @@ div.output_area pre {
   font-size: 13px;
 }
 
+div.text_cell, div.output_area{
+    flex-direction:column;
+}
+
 div.text_cell_render {
   padding: 0px;
   color: #333333;
 }
 
-.rendered_html p {
-  text-align: left;
-}
 
 .rendered_html ul {
   margin: 0 0 12px 25px;
@@ -53,14 +70,10 @@ div.text_cell_render {
   text-decoration: none;
 }
 
-.rendered_html pre, .rendered_html code {
-  background-color: #DDDDDD;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 0.05em;
-  padding-bottom: 0.05em;
-  margin: 1em 0em;
-  font-size: 14px;
+.rendered_html code {
+  background-color: whitesmoke;
+  padding: 1px;
+  border: thin silver solid;
 }
 
 .page-content > .content p {
