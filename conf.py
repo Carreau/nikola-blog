@@ -121,6 +121,7 @@ POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.ipynb", "stories", "story.tmpl"),
