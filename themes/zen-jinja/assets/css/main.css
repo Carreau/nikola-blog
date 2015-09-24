@@ -2192,7 +2192,6 @@ a:focus {
 .page-content > .content .h6 {
   margin: 12px 0;
   font-family: inherit;
-  font-weight: bold;
   line-height: 24px;
   color: #2e2e2e;
   text-rendering: optimizelegibility;
