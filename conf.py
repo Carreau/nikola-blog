@@ -3,8 +3,6 @@
 from __future__ import unicode_literals
 import time
 
-# Configuration, please edit
-
 # Data about this site
 BLOG_AUTHOR = "Matthias Bussonnier"
 BLOG_TITLE = "Random Thoughts"
@@ -17,46 +15,10 @@ SITE_URL = "http://carreau.github.io/"
 BLOG_EMAIL = "bussonnier.matthias(at)mail-by-google(dot)com  "
 BLOG_DESCRIPTION = "Random, often unfinished thoughts about things, mostly programming and Python"
 
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-# bg     Bulgarian
-# ca     Catalan
-# de     German
-# el     Greek [NOT gr!]
-# en     English
-# eo     Esperanto
-# es     Spanish
-# fa     Persian
-# fi     Finnish
-# fr     French
-# hr     Croatian
-# it     Italian
-# jp     Japanese
-# nl     Dutch
-# pt_br  Portuguese (Brasil)
-# pl     Polish
-# ru     Russian
-# sl     Slovenian [NOT sl_si!]
-# tr_tr  Turkish (Turkey)
-# zh_cn  Chinese (Simplified)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (p.e. look at the modules at: ./nikola/data/themes/default/messages/fr.py).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
-
-# What is the default language?
 DEFAULT_LANG = "en"
 
-# What other languages do you have?
-# The format is {"translationcode" : "path/to/translation" }
-# the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    # Example for another language:
-    # "es": "./es",
 }
 
 # Links for the sidebar / navigation bar.
@@ -73,7 +35,7 @@ NAVIGATION_LINKS = {
  DEFAULT_LANG: (
      ('/index.html', 'Home', 'icon-home'),
      ('/archive.html', 'Archives', 'icon-folder-open-alt'),
-     ('/categories/index.html', 'Tags', 'icon-tags'),
+     #('/categories/index.html', 'Tags', 'icon-tags'),
      ('/rss.xml', 'RSS', 'icon-rss'),
 #         ('http://getnikola.com', 'About me', 'icon-user'),
      ('https://twitter.com/mbussonn', 'My Twitter', 'icon-twitter'),
@@ -666,4 +628,5 @@ LOGGING_HANDLERS = {
 # It can be anything, data, functions, modules, etc.
 
 GLOBAL_CONTEXT = {}
+WRITE_TAG_CLOUD = False
 
