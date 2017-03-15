@@ -40,6 +40,7 @@ NAVIGATION_LINKS = {
 #         ('http://getnikola.com', 'About me', 'icon-user'),
      ('https://twitter.com/mbussonn', 'My Twitter', 'icon-twitter'),
      ('https://github.com/Carreau', 'Me on Github', 'icon-github'),
+     ('/pages/me.html', 'Me', 'icon-user'),
  )
 }
 
@@ -86,9 +87,10 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("stories/*.ipynb", "stories", "story.tmpl"),
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("pages/*.ipynb", "pages", "story.tmpl"),
+    ("pages/*.rst", "pages", "story.tmpl"),
+    ("pages/*.txt", "pages", "story.tmpl"),
+    ("pages/*.md", "pages", "story.tmpl"),
 )
 
 
