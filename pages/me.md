@@ -113,7 +113,7 @@ Also right now my background is beige for the top half of the wall.
 - **Active diffusion positions the nucleus in mouse oocytes** – Nature cell biology – 2015 – Almonacid, Maria; Ahmed, Wylie W; Bussonnier, Matthias; Mailly, Philippe; Betz, Timo; Voituriez, Raphaël; Gov, Nir S; Verlhac, Marie-Hélène;
 - **Active mechanics reveal molecular-scale force kinetics in living oocytes** – arXiv preprint arXiv:1510.08299 – 2015 – Ahmed, Wylie W; Fodor, Etienne; Almonacid, Maria; Bussonnier, Matthias; Verlhac, Marie-Helene; Gov, Nir S; Visco, Paolo; van Wijland, Frederic; Betz, Timo;
 - **Mechanical detection of a long-range actin network emanating from a biomimetic cortex** – Biophysical journal – 2014 – Bussonnier, Matthias; Carvalho, Kevin; Lemière, Joël; Joanny, Jean-François; Sykes, Cécile; Betz, Timo;
-- **Mécanique des gels d'actine** – NaN – 2014 – Bussonnier, Matthias;
+- **Actin gel mechanics** – University Paris VII archives – 2014 – Bussonnier, Matthias;
 - **The Jupyter/IPython architecture: a unified view of computational research, from interactive exploration to communication and publication.** – AGU – 2014 – Ragan-Kelley, M.; Perez, F.; Granger, B.; Kluyver, T.; Ivanov, P.; Frederic, J.; Bussonnier, M.;
 - **Nuclear positioning powered by F-actin flows in oocytes** – MOLECULAR BIOLOGY OF THE CELL – 2013 – Almonacid, M; Bussonnier, M; Betz, T; Luksza, M; Queguiner, I; Voituriez, R; Gov, N; Verlhac, MH;
 - **IPython: components for interactive and parallel computing across disciplines. (Invited)** – AGU – 2013 – Perez, F.; Bussonnier, M.; Frederic, J. D.; Froehle, B. M.; Granger, B. E.; Ivanov, P.; Kluyver, T.; Patterson, E.; Ragan-Kelley, B.; Sailer, Z.;
@@ -147,5 +147,70 @@ Also right now my background is beige for the top half of the wall.
 
 - **Docathon** - 1week/year – Berkeley – [website](https://docathon.github.io/docathon/)
 - **The Hacker Within** – once a week during academic semester – 2015-2017
-  
+
+
+## Open Source, Scientific computing, and Data Science.
+
+I joined the IPython project as a Core developer during the early day of my PhD
+in 2011. I helped it evolved from an interactive Commen line interface into the
+full feature Web-based notebook interface which is now known as the broader
+Project Jupyter. I am happy to have played played a key role in many of the
+current design. Oneof my key hinsight was developping nbconvert and host it as
+nbviewer, a service allowing to view online Jupyter notebook that grew to more
+than 100k visit a week, and is now integrated into well known platform like
+GitHub, FigShare, Authorea, and a growing number of publishing platform. 
+
+## Metrics of broad impact
+
+Developing tools in particular as open-source make it hard to collect direct
+metrics, as per definition users of the tools can install it from the freely
+available and redistributable source code. As these tools are also widely use in
+sensitive environment they do not use beacons to signal their usage nor require
+a license key. Though we can use various proxy measures to understand that the
+tools I developed have impact in all disciplines, in education and in industry.
+
+### Jupyter Notebooks on GitHub
+
+There are approximatively 800 000 jupyter notebooks publicly [available on
+GitHub](https://github.com/search?q=cell+extension%3Aipynb).
+I collaborated with GitHub to provide rendering of notebooks in 2015, which are
+now first class citizen to be available for their 12 Million users.
+
+### User Base
+
+The user base of the Jupyter Notebook and IPython is estimated to be 5 Million
+User, with respectively 160 000 , and 420 000 download for the month of February
+2017. 
+
+### Nbviewer traffic
+
+The Jupyter project now host the NbViewer service I developed and provides it as
+an online service to render notebook for easy sharing. As of February 2017 the
+monthly page view is about 800k for 300k single user.
+
+### Jupyter known deployment:
+
+The Jupyter notebook can be deployed at scale in a variety of context ranging
+from small teams in research laboratory, to several hundreds in industry and
+education. While I do not have exact number of deployments, there exist a number
+of well known public deployments:
+
+- UC Berkeley, is serving a campus-wide curriculum in Data Science with about
+  800 students and is scheduled to scale to the entire incoming freshman class
+  every year. This deployment is also 
+- Cal Poly San Luis Obispo and the Bryn Mawr College are teaching a couple of
+  classes using Jupyter/IPython.
+- At Lawrence Berkeley National lab, the National Energy Research Scientific
+  Computing Center (NERSC), as a gateway to supercomputing resources available
+  to over 5,000 researchers who use the facilities.
+- Part of the Data analysis platform at CERN provide a deployment for CERN
+  Scientist
+- The Wikimedia Foundation, has a public deployment of Jupyter notebooks that
+  can be access with any Wikipedia/Wikimedia user and have direct access to the
+  Wikimedia  datasets. 
+- Anybody with a Microsoft account can access https://notebooks.azure.com which
+  provides a Jupyter environment
+- IBM Data Scientist Workbench is integrated with Jupyter
+- Multiple companies from the Fortune 100 deploy Jupyter at the center of their
+  data science and analytics departments
 
