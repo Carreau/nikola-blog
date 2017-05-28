@@ -29,8 +29,26 @@ def cvify(publis):
             items.append('')
         print('\\cventry{'+'}{'.join(items)+'}')
 
+with open('pages/me.md')as f:
+    data = f.read()
+    lines = data.splitlines()
 
-talks = """- **Ending Py2/Py3 compatibility in a user friendly manner** – PyCon – 2017 – M. Bussonnier, M. Pacer, T. Kluyver
+    talk_lines = []
+    to_push = []
+    push = False
+    for l in lines:
+        if l.startswith('### Talks'):
+            to_push = talk_lines
+            continue
+        elif l.startswith('#'):
+            to_push = []
+        to_push.append(l)
+
+    tt = '\n'.join([l for l in talk_lines if l])
+
+talks = tt
+
+"""- **Ending Py2/Py3 compatibility in a user friendly manner** – PyCon – 2017 – M. Bussonnier, M. Pacer, T. Kluyver – [slides](https://carreau.github.io/pycon2017/) – [video](https://www.youtube.com/watch?v=2DkfPzWWC2Q)
 - **Documentation and Continuous Integration in Python with Sphinx and Travis CI** – The Hacker Within, Berkeley – 2017 – Nelle Varoquaux, Chris Holdgraf, Matthias Bussonnier
 - **Continuous integration, Documentation and Travis CI** – Docathon Conference, Berkeley – 2017 – Matthias Bussonnier - [slides](https://speakerdeck.com/carreau/continuous-integration-documentation-and-travis-ci)
 - **Git and GitHub** – The Hacker Within, Berkeley – 2017 – Ciera Martinez and Matthias Bussonnier
@@ -45,6 +63,8 @@ talks = """- **Ending Py2/Py3 compatibility in a user friendly manner** – PyCo
 - **Jupyter: A tool for datascience at scale** – LBL Labtech – 2015 – Presentation about the current and future state of Jupyter at the Lawrence Berkeley National Laboratory LabTech conference.
 - **IPython: protocol, kernels and new features** – EuroSciPy – 2014 – By Thomas Kluyver and Matthias Bussonnier
 - **Jupyter/IPython notebook, a tool for data science** – NSLS–II workshop at Brookhaven National Lab. – 2013 – Matthias Bussonnier"""
+
+assert tt == talks
 
 
 conf = """- **Jupyter Tutorial** – PyCon – 2017 – Michael Bright, Matthias Bussonnier
