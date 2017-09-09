@@ -124,13 +124,15 @@ Also right now my background is beige for the top half of the wall.
 
 ### Talks
 
+- **Jupyter, Kernels and Protocols**, – [JupyterCon](https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/63159) – 2017
+- **Building Bridges: Stopping Python 2 support in libraries without damages**  – [PyBay](https://pybay.com/speaker/matthias-bussonnier/) - 2017 – M. Bussonnier – [slides](http://carreau.github.io/talks/2017-08-13-pybay/docs/index.html#/) ([source](https://github.com/Carreau/talks/tree/master/2017-08-13-pybay)) – [video](https://www.youtube.com/watch?v=3i6n1RwqQCo)
 - **Ending Py2/Py3 compatibility in a user friendly manner** – PyCon – 2017 – M. Bussonnier, M. Pacer, T. Kluyver – [slides](https://carreau.github.io/pycon2017/) – [video](https://www.youtube.com/watch?v=2DkfPzWWC2Q)
 - **Documentation and Continuous Integration in Python with Sphinx and Travis CI** – The Hacker Within, Berkeley – 2017 – Nelle Varoquaux, Chris Holdgraf, Matthias Bussonnier
 - **Continuous integration, Documentation and Travis CI** – Docathon Conference, Berkeley – 2017 – Matthias Bussonnier - [slides](https://speakerdeck.com/carreau/continuous-integration-documentation-and-travis-ci)
 - **Git and GitHub** – The Hacker Within, Berkeley – 2017 – Ciera Martinez and Matthias Bussonnier
 - **Keynote: Jupyter : an insider story** – JupyterDay Boston , Invited Keynote, about the history of Jupyter and the challenges of managing a growing open source project
 - **Project Jupyter Overview** – PyBay – 2016 – By Jamie Whitacre, and Matthias Bussonnier
-- **Xonsh :Put some Python in your shell** PyBay – 2016 – Matthias Bussonnier and the Xonsh Core team – [video](https://www.youtube.com/watch?v=lopI4HkA9rE) [slides](https://speakerdeck.com/carreau/xonsh-pybay-2016)
+- **Xonsh: Put some Python in your shell** PyBay – 2016 – Matthias Bussonnier and the Xonsh Core team – [video](https://www.youtube.com/watch?v=lopI4HkA9rE) [slides](https://speakerdeck.com/carreau/xonsh-pybay-2016)
 - **Python Metaprogramming and Conversion to Python 3** – 2016 – The hacker Within, Berkeley – Ryan Pavlovsky wand Matthias Bussonnier
 - **Jupyter, from data gathering to publications** – PLoS: Lunch and Learn, talks and Posdcast – 2016 – Matthias Bussonnier
 - **Talks Python to me : Episode #44: Project Jupyter and IPython** – Podcast – 2016 - Min RK, Michael Kennedy, Matthias Bussonnier
