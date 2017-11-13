@@ -123,7 +123,7 @@ Also right now my background is beige for the top half of the wall.
 
 ### Talks
 
-- **Jupyter, Kernels and Protocols** – [JupyterCon](https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/63159) – JupyterCon – 2017 – M. Bussonnier, P. Ivanov
+- **Jupyter, Kernels and Protocols** – [JupyterCon](https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/63159) – [JupyterCon](https://youtu.be/GExKsQ-OU78) – 2017 – M. Bussonnier, P. Ivanov
 - **Building Bridges: Stopping Python 2 support in libraries without damages**  – [PyBay](https://pybay.com/speaker/matthias-bussonnier/) – 2017 – M. Bussonnier – [slides](http://carreau.github.io/talks/2017-08-13-pybay/docs/index.html#/) ([source](https://github.com/Carreau/talks/tree/master/2017-08-13-pybay)) – [video](https://www.youtube.com/watch?v=3i6n1RwqQCo)
 - **Ending Py2/Py3 compatibility in a user friendly manner** – PyCon – 2017 – M. Bussonnier, M. Pacer, T. Kluyver – [slides](https://carreau.github.io/pycon2017/) – [video](https://www.youtube.com/watch?v=2DkfPzWWC2Q)
 - **Documentation and Continuous Integration in Python with Sphinx and Travis CI** – The Hacker Within, Berkeley – 2017 – Nelle Varoquaux, Chris Holdgraf, Matthias Bussonnier
