@@ -8,10 +8,10 @@ BLOG_AUTHOR = "Matthias Bussonnier"
 BLOG_TITLE = "Random Thoughts"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://carreau.github.io/"
+SITE_URL = "https://carreau.github.io/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://getnikola.com/"
+# BASE_URL = "https://getnikola.com/"
 BLOG_EMAIL = "bussonnier.matthias(at)mail-by-google(dot)com  "
 BLOG_DESCRIPTION = "Random, often unfinished thoughts about things, mostly programming and Python"
 
@@ -37,7 +37,7 @@ NAVIGATION_LINKS = {
      ('/archive.html', 'Archives', 'icon-folder-open-alt'),
      #('/categories/index.html', 'Tags', 'icon-tags'),
      ('/rss.xml', 'RSS', 'icon-rss'),
-#         ('http://getnikola.com', 'About me', 'icon-user'),
+#         ('https://getnikola.com', 'About me', 'icon-user'),
      ('https://twitter.com/mbussonn', 'My Twitter', 'icon-twitter'),
      ('https://github.com/Carreau', 'Me on Github', 'icon-github'),
      ('/pages/me.html', 'Me', 'icon-user'),
@@ -216,7 +216,7 @@ CREATE_MONTHLY_ARCHIVE = False
 # By default, there are no filters.
 #
 # Many filters are shipped with Nikola.  A list is available in the manual:
-# <http://getnikola.com/handbook.html#post-processing-filters>
+# <https://getnikola.com/handbook.html#post-processing-filters>
 # FILTERS = {
 #    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 # }
@@ -285,7 +285,7 @@ THEME = 'zen-ipython'
 # Used for create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 # For creating favicons, take a look at:
-# http://www.netmagazine.com/features/create-perfect-favicon
+# https://www.netmagazine.com/features/create-perfect-favicon
 # FAVICONS = {
 #     ("icon", "/favicon.ico", "16x16"),
 #     ("icon", "/icon_128x128.png", "128x128"),
@@ -304,19 +304,19 @@ INDEX_TEASERS = True
 
 # A HTML fragment describing the license, for the sidebar.
 LICENSE = """</br>
-<a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Matthias Bussonnier</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+<a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Matthias Bussonnier</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 """
 # I recommend using the Creative Commons' wizard:
-# http://creativecommons.org/choose/
+# https://creativecommons.org/choose/
 # LICENSE = """
-# <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
+# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
 # <img alt="Creative Commons License BY-NC-SA"
 # style="border-width:0; margin-bottom:12px;"
-# src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
+# src="https://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
@@ -353,7 +353,7 @@ COMMENT_SYSTEM = None
 # INDEX_FILE = "index.html"
 
 # If a link ends in /index.html,  drop the index.html part.
-# http://mysite/foo/bar/index.html => http://mysite/foo/bar/
+# https://mysite/foo/bar/index.html => https://mysite/foo/bar/
 # (Uses the INDEX_FILE setting, so if that is, say, default.html,
 # it will instead /foo/default.html => /foo)
 # (Note: This was briefly STRIP_INDEX_HTML in v 5.4.3 and 5.4.4)
@@ -387,7 +387,7 @@ DEPLOY_FUTURE = False
 DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
-# Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
+# Specify an iCal Recurrence Rule: https://www.kanzaki.com/docs/ical/rrule.html
 # SCHEDULE_RULE = ''
 # If True, use the scheduling rule to all posts by default
 # SCHEDULE_ALL = False
@@ -461,7 +461,7 @@ SOCIAL_BUTTONS_CODE = ""
 # RSS_TEASERS = True
 
 # A search form to search this site, for the sidebar. You can use a google
-# custom search (http://www.google.com/cse/)
+# custom search (https://www.google.com/cse/)
 # Or a duckduckgo search: https://duckduckgo.com/search_box.html
 # Default is no search form.
 # SEARCH_FORM = ""
@@ -471,7 +471,7 @@ SOCIAL_BUTTONS_CODE = ""
 #
 #SEARCH_FORM = """
 #<!-- Custom search -->
-#<form method="get" id="search" action="http://duckduckgo.com/"
+#<form method="get" id="search" action="https://duckduckgo.com/"
 # class="navbar-form pull-left">
 #<input type="hidden" name="sites" value="%s"/>
 #<input type="hidden" name="k8" value="#444444"/>
@@ -487,7 +487,7 @@ SOCIAL_BUTTONS_CODE = ""
 # If you prefer a google search form, here's an example that should just work:
 #SEARCH_FORM = """
 #<!-- Custom search with google-->
-#<form id="search" action="http://google.com/search" method="get" class="navbar-form pull-left">
+#<form id="search" action="https://google.com/search" method="get" class="navbar-form pull-left">
 #<input type="hidden" name="q" value="site:%s" />
 #<input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
 #</form>
@@ -582,7 +582,7 @@ SOCIAL_BUTTONS_CODE = ""
 # Post's dates are considered in GMT by default, if you want to use
 # another timezone, please set TIMEZONE to match. Check the available
 # list from Wikipedia:
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Also, if you want to use a different timezone in some of your posts,
 # you can use W3C-DTF Format (ex. 2012-03-30T23:00:00+02:00)
 #
