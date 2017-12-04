@@ -12,7 +12,7 @@ SITE_URL = "https://carreau.github.io/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://getnikola.com/"
-BLOG_EMAIL = "bussonnier.matthias(at)mail-by-google(dot)com  "
+BLOG_EMAIL = "bussonniermatthias+blog@gmail.com"
 BLOG_DESCRIPTION = "Random, often unfinished thoughts about things, mostly programming and Python"
 
 DEFAULT_LANG = "en"
@@ -40,6 +40,7 @@ NAVIGATION_LINKS = {
 #         ('https://getnikola.com', 'About me', 'icon-user'),
      ('https://twitter.com/mbussonn', 'My Twitter', 'icon-twitter'),
      ('https://github.com/Carreau', 'Me on Github', 'icon-github'),
+     ('https://www.linkedin.com/in/matthias-bussonnier-2512256a', 'Linked In', 'icon-linkedin')
      ('/pages/me.html', 'Me', 'icon-user'),
  )
 }
@@ -110,10 +111,10 @@ PAGES = (
 COMPILERS = {
     "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
+    #"textile": ('.textile',),
+    #"txt2tags": ('.t2t',),
+    #"bbcode": ('.bb',),
+    #"wiki": ('.wiki',),
     "ipynb": ('.ipynb',),
     "html": ('.html', '.htm'),
     # Pandoc detects the input from the source filename
