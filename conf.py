@@ -540,7 +540,6 @@ SOCIAL_BUTTONS_CODE = ""
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 BODY_END = """
-SEE BASE.TMPL
 """
 
 # The possibility to extract metadata from the filename by using a
