@@ -34,14 +34,16 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
  DEFAULT_LANG: (
      ('/index.html', 'Home', 'icon-home'),
-     ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+     ('/pages/me.html', 'Me', 'icon-user'),
      #('/categories/index.html', 'Tags', 'icon-tags'),
      ('/rss.xml', 'RSS', 'icon-rss'),
 #         ('https://getnikola.com', 'About me', 'icon-user'),
      ('https://twitter.com/mbussonn', 'My Twitter', 'icon-twitter'),
      ('https://github.com/Carreau', 'Me on Github', 'icon-github'),
-     ('https://www.linkedin.com/in/matthias-bussonnier-2512256a', 'Linked In', 'icon-linkedin')
-     ('/pages/me.html', 'Me', 'icon-user'),
+     ('https://www.linkedin.com/in/matthias-bussonnier-2512256a', 'Linked In', 'icon-linkedin'),
+     ('https://keybase.io/mbussonn/', 'Keybase', 'icon-key'),
+     ('https://stackoverflow.com/users/137794/matt', 'StackOverflow', 'icon-stackexchange'),
+     ('/archive.html', 'Archives', 'icon-archive'),
  )
 }
 
@@ -152,7 +154,7 @@ COMPILERS = {
 # Create per-month archives instead of per-year
 CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = True
 # Final locations for the archives are:
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
