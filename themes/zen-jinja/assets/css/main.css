@@ -357,8 +357,8 @@ div.prompt {
 @media (max-width: 773px) {
   .page-content > .content {
     min-width: auto;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: auto;
     margin-left: auto;
   }
