@@ -2,17 +2,17 @@
 .. title: Me, Myself, and I
 -->
 
-Hi, I'm Matthias. You may not her it while reading this, but I have a relatively
-strong French Akeussent. 
+Hi, I'm Matthias. You may not here it while reading this, but I have a relatively
+strong French _Akeussent_. 
 
 # What do you like to be known for ? 
 
 I mostly like to be known for writing tools that get out of your way. Which is a
-bit of a bummer as as a Scientist I'm mostly judged on my publication while I
+bit of a bummer as as a Scientist I'm mostly judged on my publications while I
 prefer to enable others to do their work more efficiently and give them ideas. 
 
 One of the software I'm the most proud of is [IPython](https://ipython.org), I
-did not create it, [Fernando](https://fperez.org), but I think the current
+did not create it, [Fernando](https://fperez.org) did, but I think the current
 version I maintain with [Thomas](https://github.com/takluyver) and
 [Min](https://github.com/minrk) is one of the best tools for Python programmers
 and Python scientist since Slice Bread. 
@@ -92,7 +92,6 @@ attended otherwise. This made me aware of how the tools I was developing for
 mostly myself had impact on thousand of people. I understood better that if I
 spend an hour making 60 scientist do their job 1 minute faster, then my global
 impact on Science is positive. 
-
 
 Also right now my background is beige for the top half of the wall. 
 
