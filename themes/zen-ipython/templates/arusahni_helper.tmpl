@@ -123,12 +123,10 @@ lang="{{ lang }}">
 {% endmacro %}
 
 {% macro html_navigation_links() %}
+    <li><a href="/pages/me.html" title="Me"><img
+    src='https://avatars2.githubusercontent.com/u/335567?v=3&s=400'></img></a></li>
     {% for url, text, icon in navigation_links[lang] %}
-        {% if rel_link(permalink, url) == "#" %}
-            <li><a href="{{ url }}" title="{{ text }}"><i class="{{ icon }}"></i></a></li>
-        {% else %}
-            <li><a href="{{ url }}" title="{{ text }}"><i class="{{ icon }}"></i></a></li>
-        {% endif %}
+        <li><a href="{{ url }}" title="{{ text }}"><i class="{{ icon }}"></i></a></li>
     {% endfor %}
 {% endmacro %}
 
