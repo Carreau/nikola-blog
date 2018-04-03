@@ -77,7 +77,8 @@ talks = tt
 assert tt == talks
 
 
-conf = """- **Jupyter Tutorial** – PyCon – 2017 – Michael Bright, Matthias Bussonnier
+conf = """- **JupyterCon 2018 Program committee** – JupyterCon – 2018.
+- **Jupyter Tutorial** – PyCon – 2017 – Michael Bright, Matthias Bussonnier
 - **Docathon** – Berkeley – 2017 – [website](https://docathon.github.io/docathon/)
 - **The Hacker Within** – Berkeley – once a week during academic semester – 2015-2017
 - **Python Bootcamp Fall 2016** – Berkeley – 2016
