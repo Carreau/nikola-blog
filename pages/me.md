@@ -122,7 +122,7 @@ impact on Science is positive.
 
 ### Talks
 
-- **Jupyter: Current state and Future Direction** – Jupyter Pop-Up Boston – March 2018
+- **State of Jupyter** – Jupyter Pop-Up Boston – March 2018 – [video](https://www.youtube.com/watch?v=Yf8f7tU5msw)
 - **Jupyter in HPC** – IDEA Webinar – Feb 2018 – M. Bussonnier
 - **Jupyter and High Performance Computing** – Invited Talks at NERSC – Feb 2018 – M. Bussonnier
 - **Jupyter and the IPython kernel, hidden and awaiting implementation features** – [PyData Meetup Paris , FR](https://www.meetup.com/fr-FR/PyData-Paris/events/243324756/?eventId=243324756) – Nov 2017 – M. Bussonnier
@@ -178,6 +178,15 @@ rare to see software cited in a paper. Tools like `depsy.org` try to
 aggregate software impact as one metric and put IPython  in the 100\%
 percentile. We can also use various proxy measures to understand that tools I
 developed have impact in all disciplines, in education, and in industry.
+
+## Articles on Jupyter:
+
+ - [The scientific Paper is Obsolete](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)
+ - [Jupyter, Mathematica, and the Future of the Research Paper](https://paulromer.net/jupyter-mathematica-and-the-future-of-the-research-paper/)
+
+## Misc articles to read:
+
+ - [Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps](http://idl.cs.washington.edu/files/2018-QuantitativeColor-CHI.pdf)
 
 ### Jupyter Notebooks on GitHub
 
