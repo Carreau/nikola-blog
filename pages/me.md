@@ -107,7 +107,9 @@ impact on Science is positive.
 
 ### Peer reviewed article
 
-- **(Accepted eb 2018) Active mechanics reveal molecular-scale force kinetics in living oocytes** - Biophysical Journal – 2018 – W. W. Ahmed, E. Fodor, M. Almonacid, M. Bussonnier, M-H Verlhac, N. Gov, P. Visco, F. van Wijland, T. Betz;
+- **Binder 2.0 - Reproducible, interactive, sharable environments for science at scale** – SciPy 2018 Proceeding – 2018 – Project Jupyter, Matthias Bussonnier, Jessica Forde, Jeremy Freeman, Brian Granger, Tim Head, Chris Holdgraf, Kyle Kelley, Gladys Nalvarte, Andrew Osheroff, M Pacer, Yuvi Panda, Fernando Perez, Benjamin Ragan-Kelley,
+Carol Willing; [DOI: 10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majora-4af1f417-011)
+- **Active mechanics reveal molecular-scale force kinetics in living oocytes** - Biophysical Journal – 2018 – W. W. Ahmed, E. Fodor, M. Almonacid, M. Bussonnier, M-H Verlhac, N. Gov, P. Visco, F. van Wijland, T. Betz;
 - **Active mechanics in living oocytes reveal molecular-scale force kinetics** – Biophysical Journal – 2016 – Ahmed, Wylie; Fodor, Etienne; Almonacid, Maria; Bussonnier, Matthias; Verlhac, Marie-Helene; Gov, Nir; Visco, Paolo; van Wijland, Frederic; Betz, Timo;
 - **Nonequilibrium dissipation in living oocytes** – EPL (Europhysics Letters) – 2016 – Fodor, Étienne; Ahmed, Wylie W; Almonacid, Maria; Bussonnier, Matthias; Gov, Nir S; Verlhac, M-H; Betz, Timo; Visco, Paolo; van Wijland, Frédéric;
 - **Cell-sized liposome doublets reveal active tension build-up driven by acto-myosin dynamics** – Soft Matter – 2016 – Caorsi, V; Lemière, J; Campillo, C; Bussonnier, M; Manzi, J; Betz, T; Plastino, J; Carvalho, K; Sykes, C;
