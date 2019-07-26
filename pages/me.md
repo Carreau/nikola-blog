@@ -125,6 +125,9 @@ Carol Willing; [DOI: 10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majo
 
 ### Talks
 
+- **Async/Await in the REPL** – PyCon 2019 language summit – May 2019 – [slides](https://github.com/Carreau/talks/blob/master/2019-05-01-Language-Summit/async-await-in-the-repl.pdf) [PSF Blog](http://pyfound.blogspot.com/2019/06/python-language-summit-lightning-talks.html)
+- **Jupyter as the Interface to High Performance Computing** – Ncsa Blue Waters Webinar – [video](https://bluewaters.ncsa.illinois.edu/webinars/software-ecosystems/jupyter) – M. Bussonnier, S. Cholia, R. Thomas, 
+- **Jupyter Ecosystem** – Open Source Directions: Episode #13. – [video](https://www.quansight.com/open-source-directions) – M. Bussonnier, C. Willing
 - **State of Jupyter** – Jupyter Pop-Up Boston – March 2018 – [video](https://www.youtube.com/watch?v=Yf8f7tU5msw)
 - **Jupyter in HPC** – IDEA Webinar – Feb 2018 – M. Bussonnier
 - **Jupyter and High Performance Computing** – Invited Talks at NERSC – Feb 2018 – M. Bussonnier
@@ -148,7 +151,9 @@ Carol Willing; [DOI: 10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majo
 - **Jupyter/IPython notebook, a tool for data science** – NSLS–II workshop at Brookhaven National Lab. – 2013 – Matthias Bussonnier
 
 ## Workshop conference: organizer / lecturer / instructor / helper
-
+ 
+- Pycon IPython in depth Tutorial; SWC; Scipy 2019 JupyterLab tutorial
+- **SciPy 2019 Birds of a Feather Organiser** – SciPy – 2019
 - **JupyterCon 2018 Program commitee** – JupyterCon – 2018
 - **Jupyter Tutorial** – PyCon – 2017 – Michael Bright, Matthias Bussonnier
 - **Jupyter Advanced Topics Tutorial** – SciPy – 2015 – Matthias Bussonnier, Jonathan Frederic and Thomas Kluyver – [video](https://www.youtube.com/watch?v=38R7jiCspkw)
