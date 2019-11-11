@@ -107,6 +107,7 @@ impact on Science is positive.
 
 ### Peer reviewed article
 
+- **nbgrader: A Tool for Creating and Grading Assignments in the Jupyter Notebook** – JoSE – 2019 – Project Jupyter, Douglas Blank , David Bourgin , Alexander Brown , Matthias Bussonnier , Jonathan Frederic , Brian Granger , Thomas L. Griffiths , Jessica Hamrick , Kyle Kelley , M Pacer , Logan Page , Fernando Pérez , Benjamin Ragan-Kelley , Jordan W. Suchow , and Carol Willing – [doi: 10.21105/jose.00032](https://doi.org/10.21105/jose.00032)
 - **Binder 2.0 - Reproducible, interactive, sharable environments for science at scale** – SciPy 2018 Proceeding – 2018 – Project Jupyter, Matthias Bussonnier, Jessica Forde, Jeremy Freeman, Brian Granger, Tim Head, Chris Holdgraf, Kyle Kelley, Gladys Nalvarte, Andrew Osheroff, M Pacer, Yuvi Panda, Fernando Perez, Benjamin Ragan-Kelley,
 Carol Willing; [DOI: 10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majora-4af1f417-011)
 - **Active mechanics reveal molecular-scale force kinetics in living oocytes** - Biophysical Journal – 2018 – W. W. Ahmed, E. Fodor, M. Almonacid, M. Bussonnier, M-H Verlhac, N. Gov, P. Visco, F. van Wijland, T. Betz;
