@@ -85,7 +85,7 @@ NAVIGATION_LINKS = {
 
 POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    #("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
 )
 PAGES = (
@@ -425,7 +425,7 @@ MathJax.Hub.Config({
 # You will also get gist, nikola and podcast because those are
 # done in the code, hope you don't mind ;-)
 # MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['headerid']
+# MARKDOWN_EXTENSIONS = ['headerid']
 
 
 # Social buttons. This is sample code for AddThis (which was the default for a
