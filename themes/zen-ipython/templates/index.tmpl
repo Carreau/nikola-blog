@@ -25,9 +25,9 @@
             </div>
             <div class="body">
             {% if index_teasers %}
-                {{ post.text(teaser_only=True) }}
+                {{ post.text(teaser_only=True, strip_html=True) }}
             {% else %}
-                {{ post.text(teaser_only=False) }}
+                {{ post.text(teaser_only=False, strip_html=True) }}
             {% endif %}
             </div>
         </div>
